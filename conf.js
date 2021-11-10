@@ -6,6 +6,9 @@ exports.config = {
 		'sapcloud-form': {
 			user: '${param.user}',
 			pass: '${param.pass}',
+			userFieldSelector: '#USERNAME_FIELD-inner',
+			passFieldSelector: '#PASSWORD_FIELD-inner',
+			logonButtonSelector: '#LOGIN_LINK'
 		}
 	},
     specs: ['spec.js']
