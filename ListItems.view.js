@@ -25,7 +25,7 @@ let searchField = element(by.control({
 let firstRow = ColumnListItem.first();
 
 module.exports = createPageObjects({
-    ListReport: {
+    ListItems: {
         arrangements: {
             iStartTheApp: function () {
                 // app setup
