@@ -1,13 +1,3 @@
-let goButton = element(by.control({
-    viewName: 'sap.suite.ui.generic.template.ListReport.view.ListReport',
-    controlType: 'sap.m.Button',
-    id: /btnGo$/,
-    properties: {
-        text: 'Go'
-    }
-}));
-
-
 let ColumnListItem = element.all(by.control({
     controlType: "sap.m.ColumnListItem"
 }));
