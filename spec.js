@@ -1,3 +1,6 @@
+var pageObjects = require("../ListItems.view") ;
+
+
 describe('masterdetail', function () {
 
     it('should load the app',function() {
